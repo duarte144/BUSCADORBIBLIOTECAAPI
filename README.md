@@ -446,13 +446,6 @@ Agregar dos preguntas nuevas al arreglo `PREGUNTAS` y comprobar que aparecen en 
 | Caché de respuestas de la API | Nivel difícil (TTL y utilidad de la caché) |
 | Qué no se debe guardar en el navegador | Nivel medio |
 
-### 12.9 Plan de tiempo sugerido
-
-| Minutos | Actividad |
-|---|---|
-| 0–2 | Explicación del objetivo y de cómo abrir los archivos. |
-| 2–12 | Los compañeros resuelven la trivia. |
-| 12–14 | Revisión de las preguntas más falladas. |
 
 ## 13. Integrantes
 
