@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trivia: APIs y almacenamiento</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main>
+  <h1>Trivia: APIs y almacenamiento</h1>
+  <p class="sub">22 preguntas en 3 niveles (fácil, medio y difícil). Tiempo estimado: 10 a 12 minutos.</p>
+
+  <div class="card">
+    <div class="row" style="justify-content:space-between;margin-top:0">
+      <span class="msg" id="contador">Pregunta 1 de 22</span>
+      <span class="row" style="margin-top:0">
+        <span class="badge" id="nivel">Nivel fácil</span>
+        <span class="badge" id="reloj">⏱ 00:00</span>
+        <span class="badge" id="puntos">0 puntos</span>
+      </span>
+    </div>
+    <div class="bar" aria-hidden="true"><i id="prog"></i></div>
+  </div>
+
+  <div class="card" id="juego">
+    <h2 id="pregunta"></h2>
+    <pre id="codigo" hidden></pre>
+    <div id="opciones"></div>
+    <div class="exp" id="exp" hidden></div>
+    <div class="row"><button class="p" id="sig" hidden>Siguiente →</button></div>
+  </div>
+
+  <div class="card" id="final" hidden>
+    <h2>Resultado final</h2>
+    <p class="big" id="nota"></p>
+    <p id="mensaje"></p>
+    <p class="msg" id="tiempo"></p>
+    <p class="msg" id="desglose"></p>
+    <p class="msg" id="mejor"></p>
+    <div class="row"><button class="p" id="otra">↻ Jugar otra vez</button></div>
+  </div>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
